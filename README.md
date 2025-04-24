@@ -38,3 +38,37 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+
+API RESTful com Node.js, MongoDB e Next.js
+Este projeto é uma API RESTful desenvolvida com Node.js, MongoDB (Atlas) e integrada ao framework Next.js, permitindo o uso tanto como back-end quanto como base para futuras integrações front-end. A API gerencia uma lista de itens com operações de CRUD (Create, Read, Update, Delete).
+
+🔧 Tecnologias utilizadas:
+Node.js
+
+Next.js (API Routes)
+
+MongoDB Atlas (Database)
+
+Mongoose (ORM)
+
+Dotenv
+
+🚀 Funcionalidades:
+📄 Listar todos os itens
+
+➕ Criar novo item
+
+📝 Atualizar item existente
+
+❌ Deletar item
+
+📂 Organização das rotas:
+GET /api/items — Lista todos os itens
+
+POST /api/items — Cria um novo item
+
+GET /api/items/:id — Busca item por ID
+
+PUT /api/items/:id — Atualiza item por ID
+
+DELETE /api/items/:id — Remove item por ID
